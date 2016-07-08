@@ -1,0 +1,9 @@
+#
+
+This is the program which enable us to analyse MD trajectories.
+
+Implementations are as follows:
+
+(1) Root mean square displacement (Ca & backbone)  
+(2) (comming soom) Principal component analysis
+(3) (comming soom) Principal axis pf moment of inertia

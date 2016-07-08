@@ -1,0 +1,2172 @@
+INFORMATION> INPUTS
+No. of atoms                  :        26769
+Reference PDB                 :  adp_1.pdb                                                                       
+Trajectory file               :  adp_1ns_mod.pdb                                                                 
+Atom_type                     :  BB
+Residue range for fitiing     :         1410        1510
+ Unit No. is          100
+ no. of atoms:        26769
+     #dbg no of atoms in analysing class:        26769
+
+INFORMATION> ANALYSIS
+    # READING REFERENCE
+ no. of atoms:        26769
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+      COM OF REFERENCE (BEFORE):     39.606    61.085   121.059
+      COM Of REFERENCE (AFTER) :    -0.000     0.000    -0.000
+
+MODEL NO>    1
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+ 
+    INFORMATION> (0) RMSD CALCULATION
+       SIZE OF INPUT TARGET COORDINATES:      3    303
+       COM OF SPECIFIED ATOMS  (BEFORE):    39.606    61.085   121.059
+       COM OF SPECIFIED ATOMS  (AFTER) :    -0.000     0.000    -0.000
+ # dbg  Array size (rA) [no of coords] :         303
+ 
+    INFORMATION> (1) SYMMETRIC MATRIX (S)
+         0.000     0.000     0.000     0.000
+         0.000   710.186    47.477  -134.869
+         0.000    47.477   709.531    41.681
+         0.000  -134.869    41.681   313.584
+ 
+    INFORMATION> (2) EIGENVALUES AND EIGENVECTORS
+          LOC MIN EIGENVALE :   1
+          MIN EIGENVALE     :      0.000
+          THE EIGENVECTOR   :      1.000     0.000     0.000     0.000
+          <LIST OF EIGENVALUES>
+            1     0.000
+            2   771.295
+            3   696.492
+            4   265.514
+ 
+          <LIST OF EIGENVECTORS>
+          1.000     0.000     0.000     0.000
+          0.000     0.837    -0.457     0.300
+          0.000     0.508     0.853    -0.121
+          0.000    -0.200     0.254     0.946
+ 
+          <ROTATION MATRIX>
+          1.000     0.000     0.000
+          0.000     1.000     0.000
+          0.000     0.000     1.000
+     *RMSD:      0.000
+ not model line
+
+MODEL NO>    2
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+ 
+    INFORMATION> (0) RMSD CALCULATION
+       SIZE OF INPUT TARGET COORDINATES:      3    303
+       COM OF SPECIFIED ATOMS  (BEFORE):    40.104    61.117   120.528
+       COM OF SPECIFIED ATOMS  (AFTER) :    -0.000    -0.000     0.000
+ # dbg  Array size (rA) [no of coords] :         303
+ 
+    INFORMATION> (1) SYMMETRIC MATRIX (S)
+         1.222   -13.683    -9.828    -0.246
+       -13.683   719.187    45.105  -134.266
+        -9.828    45.105   715.380    35.369
+        -0.246  -134.266    35.369   309.222
+ 
+    INFORMATION> (2) EIGENVALUES AND EIGENVECTORS
+          LOC MIN EIGENVALE :   1
+          MIN EIGENVALE     :      0.831
+          THE EIGENVECTOR   :      1.000     0.020     0.012     0.008
+          <LIST OF EIGENVALUES>
+            1     0.831
+            2   778.378
+            3   701.477
+            4   264.325
+ 
+          <LIST OF EIGENVECTORS>
+          1.000    -0.021    -0.003    -0.012
+          0.020     0.845    -0.448     0.291
+          0.012     0.493     0.863    -0.104
+          0.008    -0.205     0.231     0.951
+ 
+          <ROTATION MATRIX>
+          1.000    -0.016     0.025
+          0.017     0.999    -0.039
+         -0.024     0.040     0.999
+     *RMSD:      0.911
+ not model line
+
+MODEL NO>    3
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+ 
+    INFORMATION> (0) RMSD CALCULATION
+       SIZE OF INPUT TARGET COORDINATES:      3    303
+       COM OF SPECIFIED ATOMS  (BEFORE):    40.259    61.137   120.171
+       COM OF SPECIFIED ATOMS  (AFTER) :     0.000    -0.000     0.000
+ # dbg  Array size (rA) [no of coords] :         303
+ 
+    INFORMATION> (1) SYMMETRIC MATRIX (S)
+         1.204    -7.108   -10.180    -2.011
+        -7.108   717.200    47.715  -134.989
+       -10.180    47.715   719.547    41.120
+        -2.011  -134.989    41.120   313.013
+ 
+    INFORMATION> (2) EIGENVALUES AND EIGENVECTORS
+          LOC MIN EIGENVALE :   1
+          MIN EIGENVALE     :      0.976
+          THE EIGENVECTOR   :      1.000     0.011     0.013     0.009
+          <LIST OF EIGENVALUES>
+            1     0.976
+            2   704.816
+            3   779.334
+            4   265.837
+ 
+          <LIST OF EIGENVECTORS>
+          1.000     0.008    -0.014    -0.011
+          0.011     0.479     0.826     0.296
+          0.013    -0.840     0.529    -0.117
+          0.009    -0.253    -0.192     0.948
+ 
+          <ROTATION MATRIX>
+          0.999    -0.019     0.026
+          0.019     1.000    -0.021
+         -0.026     0.022     0.999
+     *RMSD:      0.988
+ not model line
+
+MODEL NO>    4
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+ 
+    INFORMATION> (0) RMSD CALCULATION
+       SIZE OF INPUT TARGET COORDINATES:      3    303
+       COM OF SPECIFIED ATOMS  (BEFORE):    40.061    61.299   120.232
+       COM OF SPECIFIED ATOMS  (AFTER) :    -0.000     0.000     0.000
+ # dbg  Array size (rA) [no of coords] :         303
+ 
+    INFORMATION> (1) SYMMETRIC MATRIX (S)
+         1.087    -2.889    -7.999    -3.776
+        -2.889   716.073    47.450  -132.142
+        -7.999    47.450   717.259    42.923
+        -3.776  -132.142    42.923   313.423
+ 
+    INFORMATION> (2) EIGENVALUES AND EIGENVECTORS
+          LOC MIN EIGENVALE :   1
+          MIN EIGENVALE     :      0.940
+          THE EIGENVECTOR   :      1.000     0.006     0.010     0.013
+          <LIST OF EIGENVALUES>
+            1     0.940
+            2   703.270
+            3   776.341
+            4   267.290
+ 
+          <LIST OF EIGENVECTORS>
+          1.000     0.009    -0.008    -0.013
+          0.006     0.480     0.827     0.292
+          0.010    -0.839     0.530    -0.122
+          0.013    -0.255    -0.187     0.949
+ 
+          <ROTATION MATRIX>
+          0.999    -0.026     0.020
+          0.026     1.000    -0.011
+         -0.020     0.012     1.000
+     *RMSD:      0.970
+ not model line
+
+MODEL NO>    5
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+ 
+    INFORMATION> (0) RMSD CALCULATION
+       SIZE OF INPUT TARGET COORDINATES:      3    303
+       COM OF SPECIFIED ATOMS  (BEFORE):    40.403    62.359   119.792
+       COM OF SPECIFIED ATOMS  (AFTER) :     0.000     0.000     0.000
+ # dbg  Array size (rA) [no of coords] :         303
+ 
+    INFORMATION> (1) SYMMETRIC MATRIX (S)
+         1.008   -12.336    -0.630    -1.134
+       -12.336   702.558    45.933  -139.681
+        -0.630    45.933   707.079    36.116
+        -1.134  -139.681    36.116   315.714
+ 
+    INFORMATION> (2) EIGENVALUES AND EIGENVECTORS
+          LOC MIN EIGENVALE :   1
+          MIN EIGENVALE     :      0.745
+          THE EIGENVECTOR   :      1.000     0.020    -0.001     0.013
+          <LIST OF EIGENVALUES>
+            1     0.745
+            2   693.202
+            3   767.120
+            4   265.291
+ 
+          <LIST OF EIGENVECTORS>
+          1.000    -0.007    -0.014    -0.018
+          0.020     0.455     0.834     0.312
+         -0.001    -0.855     0.507    -0.110
+          0.013    -0.250    -0.217     0.943
+ 
+          <ROTATION MATRIX>
+          1.000    -0.025    -0.002
+          0.025     0.999    -0.040
+          0.003     0.040     0.999
+     *RMSD:      0.863
+ not model line
+
+MODEL NO>    6
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+ 
+    INFORMATION> (0) RMSD CALCULATION
+       SIZE OF INPUT TARGET COORDINATES:      3    303
+       COM OF SPECIFIED ATOMS  (BEFORE):    40.800    62.499   119.587
+       COM OF SPECIFIED ATOMS  (AFTER) :     0.000     0.000     0.000
+ # dbg  Array size (rA) [no of coords] :         303
+ 
+    INFORMATION> (1) SYMMETRIC MATRIX (S)
+         1.643   -16.699    -4.033    -6.395
+       -16.699   707.664    45.705  -137.671
+        -4.033    45.705   704.923    35.157
+        -6.395  -137.671    35.157   317.766
+ 
+    INFORMATION> (2) EIGENVALUES AND EIGENVECTORS
+          LOC MIN EIGENVALE :   1
+          MIN EIGENVALE     :      0.924
+          THE EIGENVECTOR   :      0.999     0.030     0.002     0.033
+          <LIST OF EIGENVALUES>
+            1     0.924
+            2   769.722
+            3   692.030
+            4   269.320
+ 
+          <LIST OF EIGENVECTORS>
+          0.999    -0.019     0.003    -0.040
+          0.030     0.849    -0.430     0.307
+          0.002     0.480     0.871    -0.109
+          0.033    -0.221     0.240     0.945
+ 
+          <ROTATION MATRIX>
+          0.998    -0.066     0.006
+          0.066     0.996    -0.060
+         -0.002     0.060     0.998
+     *RMSD:      0.961
+ not model line
+
+MODEL NO>    7
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+ 
+    INFORMATION> (0) RMSD CALCULATION
+       SIZE OF INPUT TARGET COORDINATES:      3    303
+       COM OF SPECIFIED ATOMS  (BEFORE):    40.653    62.091   119.602
+       COM OF SPECIFIED ATOMS  (AFTER) :     0.000    -0.000     0.000
+ # dbg  Array size (rA) [no of coords] :         303
+ 
+    INFORMATION> (1) SYMMETRIC MATRIX (S)
+         1.313    -5.640     0.373    -3.126
+        -5.640   707.110    49.379  -141.637
+         0.373    49.379   713.919    45.725
+        -3.126  -141.637    45.725   318.643
+ 
+    INFORMATION> (2) EIGENVALUES AND EIGENVECTORS
+          LOC MIN EIGENVALE :   1
+          MIN EIGENVALE     :      1.201
+          THE EIGENVECTOR   :      1.000     0.011    -0.002     0.015
+          <LIST OF EIGENVALUES>
+            1     1.201
+            2   701.303
+            3   773.636
+            4   264.843
+ 
+          <LIST OF EIGENVECTORS>
+          1.000    -0.003    -0.005    -0.018
+          0.011     0.468     0.825     0.315
+         -0.002    -0.840     0.526    -0.130
+          0.015    -0.274    -0.204     0.940
+ 
+          <ROTATION MATRIX>
+          1.000    -0.030    -0.004
+          0.030     0.999    -0.022
+          0.005     0.022     1.000
+     *RMSD:      1.096
+ not model line
+
+MODEL NO>    8
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+ 
+    INFORMATION> (0) RMSD CALCULATION
+       SIZE OF INPUT TARGET COORDINATES:      3    303
+       COM OF SPECIFIED ATOMS  (BEFORE):    40.382    61.673   119.091
+       COM OF SPECIFIED ATOMS  (AFTER) :    -0.000    -0.000    -0.000
+ # dbg  Array size (rA) [no of coords] :         303
+ 
+    INFORMATION> (1) SYMMETRIC MATRIX (S)
+         2.189    11.842    -3.111    -8.203
+        11.842   710.191    52.373  -138.785
+        -3.111    52.373   719.561    55.545
+        -8.203  -138.785    55.545   318.018
+ 
+    INFORMATION> (2) EIGENVALUES AND EIGENVECTORS
+          LOC MIN EIGENVALE :   1
+          MIN EIGENVALE     :      1.861
+          THE EIGENVECTOR   :      1.000    -0.013     0.004     0.019
+          <LIST OF EIGENVALUES>
+            1     1.861
+            2   707.423
+            3   777.184
+            4   263.491
+ 
+          <LIST OF EIGENVECTORS>
+          1.000     0.015     0.012    -0.014
+         -0.013     0.502     0.807     0.310
+          0.004    -0.813     0.563    -0.150
+          0.019    -0.295    -0.176     0.939
+ 
+          <ROTATION MATRIX>
+          0.999    -0.039     0.007
+          0.039     0.999     0.026
+         -0.008    -0.026     1.000
+     *RMSD:      1.364
+ not model line
+
+MODEL NO>    9
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+ 
+    INFORMATION> (0) RMSD CALCULATION
+       SIZE OF INPUT TARGET COORDINATES:      3    303
+       COM OF SPECIFIED ATOMS  (BEFORE):    40.412    60.901   119.109
+       COM OF SPECIFIED ATOMS  (AFTER) :    -0.000     0.000    -0.000
+ # dbg  Array size (rA) [no of coords] :         303
+ 
+    INFORMATION> (1) SYMMETRIC MATRIX (S)
+         2.230    12.739     0.585    -7.425
+        12.739   712.411    54.809  -138.201
+         0.585    54.809   722.212    55.201
+        -7.425  -138.201    55.201   318.489
+ 
+    INFORMATION> (2) EIGENVALUES AND EIGENVECTORS
+          LOC MIN EIGENVALE :   1
+          MIN EIGENVALE     :      1.917
+          THE EIGENVECTOR   :      1.000    -0.014    -0.001     0.017
+          <LIST OF EIGENVALUES>
+            1     1.917
+            2   707.347
+            3   781.703
+            4   264.376
+ 
+          <LIST OF EIGENVECTORS>
+          1.000     0.012     0.015    -0.012
+         -0.014     0.518     0.798     0.308
+         -0.001    -0.802     0.578    -0.150
+          0.017    -0.298    -0.169     0.939
+ 
+          <ROTATION MATRIX>
+          0.999    -0.035    -0.003
+          0.035     0.999     0.029
+          0.002    -0.029     1.000
+     *RMSD:      1.384
+ not model line
+
+MODEL NO>   10
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+ 
+    INFORMATION> (0) RMSD CALCULATION
+       SIZE OF INPUT TARGET COORDINATES:      3    303
+       COM OF SPECIFIED ATOMS  (BEFORE):    40.470    61.833   119.397
+       COM OF SPECIFIED ATOMS  (AFTER) :     0.000     0.000    -0.000
+ # dbg  Array size (rA) [no of coords] :         303
+ 
+    INFORMATION> (1) SYMMETRIC MATRIX (S)
+         1.961    -7.873     0.174    -2.173
+        -7.873   708.148    51.945  -139.347
+         0.174    51.945   717.594    42.360
+        -2.173  -139.347    42.360   317.394
+ 
+    INFORMATION> (2) EIGENVALUES AND EIGENVECTORS
+          LOC MIN EIGENVALE :   1
+          MIN EIGENVALE     :      1.822
+          THE EIGENVECTOR   :      1.000     0.014    -0.002     0.013
+          <LIST OF EIGENVALUES>
+            1     1.822
+            2   699.779
+            3   777.654
+            4   265.842
+ 
+          <LIST OF EIGENVECTORS>
+          1.000    -0.005    -0.008    -0.017
+          0.014     0.505     0.805     0.311
+         -0.002    -0.819     0.561    -0.124
+          0.013    -0.275    -0.192     0.942
+ 
+          <ROTATION MATRIX>
+          1.000    -0.027    -0.004
+          0.027     0.999    -0.028
+          0.004     0.028     1.000
+     *RMSD:      1.350
+ not model line
+
+MODEL NO>   11
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+ 
+    INFORMATION> (0) RMSD CALCULATION
+       SIZE OF INPUT TARGET COORDINATES:      3    303
+       COM OF SPECIFIED ATOMS  (BEFORE):    41.135    62.235   119.361
+       COM OF SPECIFIED ATOMS  (AFTER) :     0.000     0.000     0.000
+ # dbg  Array size (rA) [no of coords] :         303
+ 
+    INFORMATION> (1) SYMMETRIC MATRIX (S)
+         2.182     0.753    -8.629    -2.229
+         0.753   712.788    54.690  -133.928
+        -8.629    54.690   717.117    48.914
+        -2.229  -133.928    48.914   317.738
+ 
+    INFORMATION> (2) EIGENVALUES AND EIGENVECTORS
+          LOC MIN EIGENVALE :   1
+          MIN EIGENVALE     :      2.069
+          THE EIGENVECTOR   :      1.000    -0.001     0.012     0.005
+          <LIST OF EIGENVALUES>
+            1     2.069
+            2   699.933
+            3   780.045
+            4   267.778
+ 
+          <LIST OF EIGENVECTORS>
+          1.000     0.011    -0.005    -0.003
+         -0.001     0.510     0.806     0.301
+          0.012    -0.812     0.566    -0.139
+          0.005    -0.283    -0.174     0.943
+ 
+          <ROTATION MATRIX>
+          1.000    -0.010     0.024
+          0.010     1.000     0.002
+         -0.024    -0.002     1.000
+     *RMSD:      1.438
+ not model line
+
+MODEL NO>   12
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+ 
+    INFORMATION> (0) RMSD CALCULATION
+       SIZE OF INPUT TARGET COORDINATES:      3    303
+       COM OF SPECIFIED ATOMS  (BEFORE):    40.788    62.260   119.476
+       COM OF SPECIFIED ATOMS  (AFTER) :    -0.000     0.000     0.000
+ # dbg  Array size (rA) [no of coords] :         303
+ 
+    INFORMATION> (1) SYMMETRIC MATRIX (S)
+         2.761    -9.981   -20.401     0.625
+        -9.981   721.201    49.000  -131.232
+       -20.401    49.000   729.709    41.893
+         0.625  -131.232    41.893   309.021
+ 
+    INFORMATION> (2) EIGENVALUES AND EIGENVECTORS
+          LOC MIN EIGENVALE :   1
+          MIN EIGENVALE     :      2.085
+          THE EIGENVECTOR   :      1.000     0.012     0.027    -0.001
+          <LIST OF EIGENVALUES>
+            1     2.085
+            2   710.878
+            3   785.228
+            4   264.500
+ 
+          <LIST OF EIGENVECTORS>
+          1.000     0.015    -0.025     0.000
+          0.012     0.536     0.794     0.286
+          0.027    -0.803     0.584    -0.116
+         -0.001    -0.259    -0.167     0.951
+ 
+          <ROTATION MATRIX>
+          0.999     0.002     0.054
+         -0.001     1.000    -0.024
+         -0.055     0.024     0.998
+     *RMSD:      1.444
+ not model line
+
+MODEL NO>   13
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+ 
+    INFORMATION> (0) RMSD CALCULATION
+       SIZE OF INPUT TARGET COORDINATES:      3    303
+       COM OF SPECIFIED ATOMS  (BEFORE):    40.824    62.142   119.836
+       COM OF SPECIFIED ATOMS  (AFTER) :     0.000    -0.000     0.000
+ # dbg  Array size (rA) [no of coords] :         303
+ 
+    INFORMATION> (1) SYMMETRIC MATRIX (S)
+         3.019   -11.463   -19.225    -1.062
+       -11.463   721.660    48.761  -134.623
+       -19.225    48.761   729.291    43.819
+        -1.062  -134.623    43.819   311.777
+ 
+    INFORMATION> (2) EIGENVALUES AND EIGENVECTORS
+          LOC MIN EIGENVALE :   1
+          MIN EIGENVALE     :      2.354
+          THE EIGENVECTOR   :      1.000     0.015     0.025     0.007
+          <LIST OF EIGENVALUES>
+            1     2.354
+            2   712.828
+            3   785.808
+            4   264.758
+ 
+          <LIST OF EIGENVECTORS>
+          1.000     0.014    -0.025    -0.008
+          0.015     0.517     0.805     0.292
+          0.025    -0.815     0.566    -0.120
+          0.007    -0.262    -0.176     0.949
+ 
+          <ROTATION MATRIX>
+          0.999    -0.012     0.050
+          0.014     0.999    -0.031
+         -0.050     0.031     0.998
+     *RMSD:      1.534
+ not model line
+
+MODEL NO>   14
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+ 
+    INFORMATION> (0) RMSD CALCULATION
+       SIZE OF INPUT TARGET COORDINATES:      3    303
+       COM OF SPECIFIED ATOMS  (BEFORE):    40.810    61.923   120.039
+       COM OF SPECIFIED ATOMS  (AFTER) :     0.000     0.000     0.000
+ # dbg  Array size (rA) [no of coords] :         303
+ 
+    INFORMATION> (1) SYMMETRIC MATRIX (S)
+         3.211    -4.231   -18.719     0.814
+        -4.231   709.116    50.708  -129.232
+       -18.719    50.708   717.714    44.975
+         0.814  -129.232    44.975   311.382
+ 
+    INFORMATION> (2) EIGENVALUES AND EIGENVECTORS
+          LOC MIN EIGENVALE :   1
+          MIN EIGENVALE     :      2.702
+          THE EIGENVECTOR   :      1.000     0.003     0.026    -0.005
+          <LIST OF EIGENVALUES>
+            1     2.702
+            2   699.196
+            3   773.797
+            4   265.728
+ 
+          <LIST OF EIGENVECTORS>
+          1.000     0.018    -0.019     0.007
+          0.003     0.539     0.791     0.291
+          0.026    -0.797     0.590    -0.127
+         -0.005    -0.272    -0.164     0.948
+ 
+          <ROTATION MATRIX>
+          0.999     0.010     0.052
+         -0.010     1.000    -0.007
+         -0.053     0.006     0.999
+     *RMSD:      1.644
+ not model line
+
+MODEL NO>   15
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+ 
+    INFORMATION> (0) RMSD CALCULATION
+       SIZE OF INPUT TARGET COORDINATES:      3    303
+       COM OF SPECIFIED ATOMS  (BEFORE):    41.283    61.334   119.592
+       COM OF SPECIFIED ATOMS  (AFTER) :     0.000    -0.000     0.000
+ # dbg  Array size (rA) [no of coords] :         303
+ 
+    INFORMATION> (1) SYMMETRIC MATRIX (S)
+         3.558   -11.764   -18.241     5.969
+       -11.764   710.557    48.509  -130.006
+       -18.241    48.509   724.430    41.586
+         5.969  -130.006    41.586   307.474
+ 
+    INFORMATION> (2) EIGENVALUES AND EIGENVECTORS
+          LOC MIN EIGENVALE :   1
+          MIN EIGENVALE     :      2.848
+          THE EIGENVECTOR   :      0.999     0.012     0.026    -0.018
+          <LIST OF EIGENVALUES>
+            1     2.848
+            2   704.092
+            3   776.082
+            4   262.997
+ 
+          <LIST OF EIGENVECTORS>
+          0.999     0.009    -0.027     0.017
+          0.012     0.560     0.776     0.289
+          0.026    -0.785     0.609    -0.115
+         -0.018    -0.266    -0.162     0.950
+ 
+          <ROTATION MATRIX>
+          0.998     0.037     0.051
+         -0.036     0.999    -0.024
+         -0.051     0.022     0.998
+     *RMSD:      1.688
+ not model line
+
+MODEL NO>   16
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+ 
+    INFORMATION> (0) RMSD CALCULATION
+       SIZE OF INPUT TARGET COORDINATES:      3    303
+       COM OF SPECIFIED ATOMS  (BEFORE):    40.840    61.273   120.099
+       COM OF SPECIFIED ATOMS  (AFTER) :    -0.000    -0.000    -0.000
+ # dbg  Array size (rA) [no of coords] :         303
+ 
+    INFORMATION> (1) SYMMETRIC MATRIX (S)
+         4.195     2.450   -16.993    -2.317
+         2.450   713.655    52.332  -131.987
+       -16.993    52.332   729.797    54.954
+        -2.317  -131.987    54.954   313.468
+ 
+    INFORMATION> (2) EIGENVALUES AND EIGENVECTORS
+          LOC MIN EIGENVALE :   1
+          MIN EIGENVALE     :      3.778
+          THE EIGENVECTOR   :      1.000    -0.005     0.024     0.001
+          <LIST OF EIGENVALUES>
+            1     3.778
+            2   712.143
+            3   781.216
+            4   263.977
+ 
+          <LIST OF EIGENVECTORS>
+          1.000     0.021    -0.011     0.004
+         -0.005     0.575     0.764     0.294
+          0.024    -0.763     0.630    -0.144
+          0.001    -0.296    -0.141     0.945
+ 
+          <ROTATION MATRIX>
+          0.999    -0.003     0.047
+          0.002     1.000     0.010
+         -0.047    -0.010     0.999
+     *RMSD:      1.944
+ not model line
+
+MODEL NO>   17
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+ 
+    INFORMATION> (0) RMSD CALCULATION
+       SIZE OF INPUT TARGET COORDINATES:      3    303
+       COM OF SPECIFIED ATOMS  (BEFORE):    40.171    61.801   119.807
+       COM OF SPECIFIED ATOMS  (AFTER) :    -0.000    -0.000    -0.000
+ # dbg  Array size (rA) [no of coords] :         303
+ 
+    INFORMATION> (1) SYMMETRIC MATRIX (S)
+         5.013    -0.263   -23.548     2.167
+        -0.263   707.160    52.211  -129.426
+       -23.548    52.211   723.864    52.915
+         2.167  -129.426    52.915   306.954
+ 
+    INFORMATION> (2) EIGENVALUES AND EIGENVECTORS
+          LOC MIN EIGENVALE :   1
+          MIN EIGENVALE     :      4.176
+          THE EIGENVECTOR   :      0.999    -0.005     0.034    -0.015
+          <LIST OF EIGENVALUES>
+            1     4.176
+            2   704.392
+            3   774.867
+            4   259.557
+ 
+          <LIST OF EIGENVECTORS>
+          0.999     0.024    -0.020     0.021
+         -0.005     0.588     0.755     0.290
+          0.034    -0.754     0.641    -0.139
+         -0.015    -0.292    -0.137     0.947
+ 
+          <ROTATION MATRIX>
+          0.997     0.030     0.068
+         -0.031     0.999     0.009
+         -0.068    -0.011     0.998
+     *RMSD:      2.044
+ not model line
+
+MODEL NO>   18
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+ 
+    INFORMATION> (0) RMSD CALCULATION
+       SIZE OF INPUT TARGET COORDINATES:      3    303
+       COM OF SPECIFIED ATOMS  (BEFORE):    39.831    61.863   119.676
+       COM OF SPECIFIED ATOMS  (AFTER) :     0.000    -0.000     0.000
+ # dbg  Array size (rA) [no of coords] :         303
+ 
+    INFORMATION> (1) SYMMETRIC MATRIX (S)
+         5.069    -7.399   -28.315     4.008
+        -7.399   714.884    48.356  -127.090
+       -28.315    48.356   730.386    46.161
+         4.008  -127.090    46.161   308.596
+ 
+    INFORMATION> (2) EIGENVALUES AND EIGENVECTORS
+          LOC MIN EIGENVALE :   1
+          MIN EIGENVALE     :      3.840
+          THE EIGENVECTOR   :      0.999     0.005     0.040    -0.017
+          <LIST OF EIGENVALUES>
+            1     3.840
+            2   710.652
+            3   779.414
+            4   265.029
+ 
+          <LIST OF EIGENVECTORS>
+          0.999     0.023    -0.031     0.020
+          0.005     0.585     0.760     0.282
+          0.040    -0.764     0.633    -0.122
+         -0.017    -0.272    -0.143     0.951
+ 
+          <ROTATION MATRIX>
+          0.996     0.035     0.079
+         -0.034     0.999    -0.011
+         -0.080     0.008     0.997
+     *RMSD:      1.959
+ not model line
+
+MODEL NO>   19
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+ 
+    INFORMATION> (0) RMSD CALCULATION
+       SIZE OF INPUT TARGET COORDINATES:      3    303
+       COM OF SPECIFIED ATOMS  (BEFORE):    39.772    61.541   119.629
+       COM OF SPECIFIED ATOMS  (AFTER) :    -0.000    -0.000     0.000
+ # dbg  Array size (rA) [no of coords] :         303
+ 
+    INFORMATION> (1) SYMMETRIC MATRIX (S)
+         6.219    -0.421   -40.030     8.350
+        -0.421   717.310    50.513  -117.206
+       -40.030    50.513   728.275    49.516
+         8.350  -117.206    49.516   305.148
+ 
+    INFORMATION> (2) EIGENVALUES AND EIGENVECTORS
+          LOC MIN EIGENVALE :   1
+          MIN EIGENVALE     :      3.525
+          THE EIGENVECTOR   :      0.997    -0.010     0.059    -0.041
+          <LIST OF EIGENVALUES>
+            1     3.525
+            2   707.031
+            3   779.636
+            4   266.760
+ 
+          <LIST OF EIGENVECTORS>
+          0.997     0.039    -0.035     0.050
+         -0.010     0.608     0.749     0.263
+          0.059    -0.746     0.651    -0.127
+         -0.041    -0.268    -0.118     0.955
+ 
+          <ROTATION MATRIX>
+          0.990     0.081     0.118
+         -0.083     0.996     0.016
+         -0.116    -0.025     0.993
+     *RMSD:      1.877
+ not model line
+
+MODEL NO>   20
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+ 
+    INFORMATION> (0) RMSD CALCULATION
+       SIZE OF INPUT TARGET COORDINATES:      3    303
+       COM OF SPECIFIED ATOMS  (BEFORE):    39.769    61.507   119.337
+       COM OF SPECIFIED ATOMS  (AFTER) :     0.000     0.000    -0.000
+ # dbg  Array size (rA) [no of coords] :         303
+ 
+    INFORMATION> (1) SYMMETRIC MATRIX (S)
+         7.174    -1.327   -44.381     6.276
+        -1.327   712.629    47.936  -115.683
+       -44.381    47.936   722.356    51.816
+         6.276  -115.683    51.816   301.325
+ 
+    INFORMATION> (2) EIGENVALUES AND EIGENVECTORS
+          LOC MIN EIGENVALE :   1
+          MIN EIGENVALE     :      4.080
+          THE EIGENVECTOR   :      0.997    -0.008     0.065    -0.036
+          <LIST OF EIGENVALUES>
+            1     4.080
+            2   704.764
+            3   771.574
+            4   263.067
+ 
+          <LIST OF EIGENVECTORS>
+          0.997     0.044    -0.040     0.045
+         -0.008     0.606     0.752     0.260
+          0.065    -0.747     0.648    -0.131
+         -0.036    -0.269    -0.114     0.956
+ 
+          <ROTATION MATRIX>
+          0.989     0.070     0.130
+         -0.072     0.997     0.012
+         -0.129    -0.021     0.991
+     *RMSD:      2.020
+ not model line
+
+MODEL NO>   21
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+ 
+    INFORMATION> (0) RMSD CALCULATION
+       SIZE OF INPUT TARGET COORDINATES:      3    303
+       COM OF SPECIFIED ATOMS  (BEFORE):    39.357    61.626   119.803
+       COM OF SPECIFIED ATOMS  (AFTER) :    -0.000     0.000    -0.000
+ # dbg  Array size (rA) [no of coords] :         303
+ 
+    INFORMATION> (1) SYMMETRIC MATRIX (S)
+         6.594    -9.770   -47.390     5.760
+        -9.770   719.847    46.568  -115.324
+       -47.390    46.568   727.710    46.392
+         5.760  -115.324    46.392   299.708
+ 
+    INFORMATION> (2) EIGENVALUES AND EIGENVECTORS
+          LOC MIN EIGENVALE :   1
+          MIN EIGENVALE     :      3.216
+          THE EIGENVECTOR   :      0.997     0.005     0.067    -0.028
+          <LIST OF EIGENVALUES>
+            1     3.216
+            2   709.070
+            3   778.053
+            4   263.520
+ 
+          <LIST OF EIGENVECTORS>
+          0.997     0.041    -0.050     0.034
+          0.005     0.598     0.760     0.255
+          0.067    -0.759     0.637    -0.118
+         -0.028    -0.254    -0.122     0.959
+ 
+          <ROTATION MATRIX>
+          0.990     0.056     0.133
+         -0.055     0.998    -0.013
+         -0.133     0.006     0.991
+     *RMSD:      1.793
+ not model line
+
+MODEL NO>   22
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+ 
+    INFORMATION> (0) RMSD CALCULATION
+       SIZE OF INPUT TARGET COORDINATES:      3    303
+       COM OF SPECIFIED ATOMS  (BEFORE):    39.099    61.469   119.902
+       COM OF SPECIFIED ATOMS  (AFTER) :     0.000     0.000     0.000
+ # dbg  Array size (rA) [no of coords] :         303
+ 
+    INFORMATION> (1) SYMMETRIC MATRIX (S)
+         8.435    -6.872   -53.411     2.426
+        -6.872   716.685    46.677  -112.824
+       -53.411    46.677   721.975    51.539
+         2.426  -112.824    51.539   297.295
+ 
+    INFORMATION> (2) EIGENVALUES AND EIGENVECTORS
+          LOC MIN EIGENVALE :   1
+          MIN EIGENVALE     :      4.323
+          THE EIGENVECTOR   :      0.997     0.001     0.076    -0.021
+          <LIST OF EIGENVALUES>
+            1     4.323
+            2   706.285
+            3   772.891
+            4   260.892
+ 
+          <LIST OF EIGENVECTORS>
+          0.997     0.051    -0.052     0.030
+          0.001     0.600     0.760     0.251
+          0.076    -0.755     0.638    -0.129
+         -0.021    -0.260    -0.111     0.959
+ 
+          <ROTATION MATRIX>
+          0.988     0.042     0.151
+         -0.042     0.999    -0.006
+         -0.151    -0.001     0.989
+     *RMSD:      2.079
+ not model line
+
+MODEL NO>   23
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+ 
+    INFORMATION> (0) RMSD CALCULATION
+       SIZE OF INPUT TARGET COORDINATES:      3    303
+       COM OF SPECIFIED ATOMS  (BEFORE):    39.262    61.578   119.910
+       COM OF SPECIFIED ATOMS  (AFTER) :    -0.000    -0.000     0.000
+ # dbg  Array size (rA) [no of coords] :         303
+ 
+    INFORMATION> (1) SYMMETRIC MATRIX (S)
+         7.185   -15.900   -47.204     3.480
+       -15.900   715.609    47.074  -115.087
+       -47.204    47.074   721.817    44.867
+         3.480  -115.087    44.867   300.076
+ 
+    INFORMATION> (2) EIGENVALUES AND EIGENVECTORS
+          LOC MIN EIGENVALE :   1
+          MIN EIGENVALE     :      3.783
+          THE EIGENVECTOR   :      0.998     0.015     0.066    -0.016
+          <LIST OF EIGENVALUES>
+            1     3.783
+            2   702.802
+            3   774.369
+            4   263.733
+ 
+          <LIST OF EIGENVECTORS>
+          0.998     0.037    -0.055     0.019
+          0.015     0.589     0.766     0.257
+          0.066    -0.767     0.627    -0.118
+         -0.016    -0.253    -0.127     0.959
+ 
+          <ROTATION MATRIX>
+          0.991     0.033     0.130
+         -0.029     0.999    -0.033
+         -0.131     0.029     0.991
+     *RMSD:      1.945
+ not model line
+
+MODEL NO>   24
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+ 
+    INFORMATION> (0) RMSD CALCULATION
+       SIZE OF INPUT TARGET COORDINATES:      3    303
+       COM OF SPECIFIED ATOMS  (BEFORE):    39.112    61.880   119.871
+       COM OF SPECIFIED ATOMS  (AFTER) :    -0.000     0.000    -0.000
+ # dbg  Array size (rA) [no of coords] :         303
+ 
+    INFORMATION> (1) SYMMETRIC MATRIX (S)
+         7.489   -18.722   -47.140     1.194
+       -18.722   710.620    45.018  -116.100
+       -47.140    45.018   713.320    42.859
+         1.194  -116.100    42.859   297.723
+ 
+    INFORMATION> (2) EIGENVALUES AND EIGENVECTORS
+          LOC MIN EIGENVALE :   1
+          MIN EIGENVALE     :      3.997
+          THE EIGENVECTOR   :      0.998     0.021     0.065    -0.005
+          <LIST OF EIGENVALUES>
+            1     3.997
+            2   697.125
+            3   766.911
+            4   261.118
+ 
+          <LIST OF EIGENVECTORS>
+          0.998     0.038    -0.057     0.007
+          0.021     0.560     0.787     0.260
+          0.065    -0.790     0.599    -0.116
+         -0.005    -0.247    -0.140     0.959
+ 
+          <ROTATION MATRIX>
+          0.991     0.013     0.130
+         -0.007     0.999    -0.043
+         -0.130     0.042     0.991
+     *RMSD:      1.999
+ not model line
+
+MODEL NO>   25
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+ 
+    INFORMATION> (0) RMSD CALCULATION
+       SIZE OF INPUT TARGET COORDINATES:      3    303
+       COM OF SPECIFIED ATOMS  (BEFORE):    39.454    62.108   119.963
+       COM OF SPECIFIED ATOMS  (AFTER) :     0.000     0.000    -0.000
+ # dbg  Array size (rA) [no of coords] :         303
+ 
+    INFORMATION> (1) SYMMETRIC MATRIX (S)
+         7.554   -27.205   -40.281     6.475
+       -27.205   713.368    45.468  -124.585
+       -40.281    45.468   724.779    39.326
+         6.475  -124.585    39.326   304.501
+ 
+    INFORMATION> (2) EIGENVALUES AND EIGENVECTORS
+          LOC MIN EIGENVALE :   1
+          MIN EIGENVALE     :      4.375
+          THE EIGENVECTOR   :      0.998     0.032     0.055    -0.015
+          <LIST OF EIGENVALUES>
+            1     4.375
+            2   705.434
+            3   776.313
+            4   264.081
+ 
+          <LIST OF EIGENVECTORS>
+          0.998     0.021    -0.061     0.012
+          0.032     0.570     0.773     0.276
+          0.055    -0.781     0.612    -0.108
+         -0.015    -0.253    -0.154     0.955
+ 
+          <ROTATION MATRIX>
+          0.994     0.034     0.108
+         -0.027     0.997    -0.066
+         -0.110     0.062     0.992
+     *RMSD:      2.092
+ not model line
+
+MODEL NO>   26
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+ 
+    INFORMATION> (0) RMSD CALCULATION
+       SIZE OF INPUT TARGET COORDINATES:      3    303
+       COM OF SPECIFIED ATOMS  (BEFORE):    39.799    61.561   120.303
+       COM OF SPECIFIED ATOMS  (AFTER) :     0.000     0.000    -0.000
+ # dbg  Array size (rA) [no of coords] :         303
+ 
+    INFORMATION> (1) SYMMETRIC MATRIX (S)
+         5.906   -15.737   -36.850     3.671
+       -15.737   711.150    47.547  -121.845
+       -36.850    47.547   720.669    44.640
+         3.671  -121.845    44.640   305.924
+ 
+    INFORMATION> (2) EIGENVALUES AND EIGENVECTORS
+          LOC MIN EIGENVALE :   1
+          MIN EIGENVALE     :      3.714
+          THE EIGENVECTOR   :      0.998     0.017     0.051    -0.013
+          <LIST OF EIGENVALUES>
+            1     3.714
+            2   702.009
+            3   772.620
+            4   265.305
+ 
+          <LIST OF EIGENVECTORS>
+          0.998     0.027    -0.046     0.014
+          0.017     0.573     0.773     0.274
+          0.051    -0.776     0.617    -0.121
+         -0.013    -0.263    -0.143     0.954
+ 
+          <ROTATION MATRIX>
+          0.994     0.028     0.101
+         -0.024     0.999    -0.034
+         -0.102     0.032     0.994
+     *RMSD:      1.927
+ not model line
+
+MODEL NO>   27
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+ 
+    INFORMATION> (0) RMSD CALCULATION
+       SIZE OF INPUT TARGET COORDINATES:      3    303
+       COM OF SPECIFIED ATOMS  (BEFORE):    39.364    61.372   120.702
+       COM OF SPECIFIED ATOMS  (AFTER) :    -0.000    -0.000    -0.000
+ # dbg  Array size (rA) [no of coords] :         303
+ 
+    INFORMATION> (1) SYMMETRIC MATRIX (S)
+         6.401   -16.641   -44.470     5.971
+       -16.641   713.115    45.907  -114.524
+       -44.470    45.907   721.284    45.286
+         5.971  -114.524    45.286   303.925
+ 
+    INFORMATION> (2) EIGENVALUES AND EIGENVECTORS
+          LOC MIN EIGENVALE :   1
+          MIN EIGENVALE     :      3.226
+          THE EIGENVECTOR   :      0.998     0.016     0.062    -0.023
+          <LIST OF EIGENVALUES>
+            1     3.226
+            2   702.697
+            3   771.369
+            4   267.433
+ 
+          <LIST OF EIGENVECTORS>
+          0.998     0.032    -0.054     0.026
+          0.016     0.593     0.762     0.259
+          0.062    -0.763     0.633    -0.119
+         -0.023    -0.256    -0.126     0.958
+ 
+          <ROTATION MATRIX>
+          0.991     0.048     0.123
+         -0.044     0.998    -0.034
+         -0.125     0.028     0.992
+     *RMSD:      1.796
+ not model line
+
+MODEL NO>   28
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+ 
+    INFORMATION> (0) RMSD CALCULATION
+       SIZE OF INPUT TARGET COORDINATES:      3    303
+       COM OF SPECIFIED ATOMS  (BEFORE):    39.029    61.448   120.549
+       COM OF SPECIFIED ATOMS  (AFTER) :     0.000     0.000    -0.000
+ # dbg  Array size (rA) [no of coords] :         303
+ 
+    INFORMATION> (1) SYMMETRIC MATRIX (S)
+         6.677   -17.502   -46.647     6.158
+       -17.502   715.128    45.729  -116.806
+       -46.647    45.729   719.211    44.653
+         6.158  -116.806    44.653   302.636
+ 
+    INFORMATION> (2) EIGENVALUES AND EIGENVECTORS
+          LOC MIN EIGENVALE :   1
+          MIN EIGENVALE     :      3.182
+          THE EIGENVECTOR   :      0.997     0.016     0.065    -0.024
+          <LIST OF EIGENVALUES>
+            1     3.182
+            2   702.711
+            3   772.374
+            4   265.385
+ 
+          <LIST OF EIGENVECTORS>
+          0.997     0.036    -0.056     0.026
+          0.016     0.566     0.782     0.262
+          0.065    -0.784     0.606    -0.118
+         -0.024    -0.252    -0.137     0.958
+ 
+          <ROTATION MATRIX>
+          0.990     0.050     0.130
+         -0.045     0.998    -0.036
+         -0.131     0.030     0.991
+     *RMSD:      1.784
+ not model line
+
+MODEL NO>   29
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+ 
+    INFORMATION> (0) RMSD CALCULATION
+       SIZE OF INPUT TARGET COORDINATES:      3    303
+       COM OF SPECIFIED ATOMS  (BEFORE):    38.846    61.965   120.834
+       COM OF SPECIFIED ATOMS  (AFTER) :     0.000    -0.000     0.000
+ # dbg  Array size (rA) [no of coords] :         303
+ 
+    INFORMATION> (1) SYMMETRIC MATRIX (S)
+         8.345   -29.529   -52.790     5.704
+       -29.529   717.030    41.792  -115.534
+       -52.790    41.792   721.370    37.978
+         5.704  -115.534    37.978   300.331
+ 
+    INFORMATION> (2) EIGENVALUES AND EIGENVECTORS
+          LOC MIN EIGENVALE :   1
+          MIN EIGENVALE     :      3.417
+          THE EIGENVECTOR   :      0.997     0.035     0.072    -0.015
+          <LIST OF EIGENVALUES>
+            1     3.417
+            2   704.987
+            3   773.102
+            4   265.570
+ 
+          <LIST OF EIGENVECTORS>
+          0.997     0.034    -0.073     0.013
+          0.035     0.566     0.783     0.256
+          0.072    -0.789     0.601    -0.102
+         -0.015    -0.235    -0.144     0.961
+ 
+          <ROTATION MATRIX>
+          0.989     0.035     0.143
+         -0.025     0.997    -0.071
+         -0.145     0.067     0.987
+     *RMSD:      1.849
+ not model line
+
+MODEL NO>   30
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+ 
+    INFORMATION> (0) RMSD CALCULATION
+       SIZE OF INPUT TARGET COORDINATES:      3    303
+       COM OF SPECIFIED ATOMS  (BEFORE):    38.852    62.027   121.076
+       COM OF SPECIFIED ATOMS  (AFTER) :    -0.000     0.000    -0.000
+ # dbg  Array size (rA) [no of coords] :         303
+ 
+    INFORMATION> (1) SYMMETRIC MATRIX (S)
+         8.168   -25.838   -56.799     9.997
+       -25.838   708.111    40.272  -105.018
+       -56.799    40.272   706.437    37.387
+         9.997  -105.018    37.387   297.141
+ 
+    INFORMATION> (2) EIGENVALUES AND EIGENVECTORS
+          LOC MIN EIGENVALE :   1
+          MIN EIGENVALE     :      2.528
+          THE EIGENVECTOR   :      0.996     0.027     0.081    -0.034
+          <LIST OF EIGENVALUES>
+            1     2.528
+            2   691.350
+            3   758.582
+            4   267.398
+ 
+          <LIST OF EIGENVECTORS>
+          0.996     0.041    -0.074     0.035
+          0.027     0.564     0.789     0.241
+          0.081    -0.794     0.595    -0.100
+         -0.034    -0.224    -0.133     0.965
+ 
+          <ROTATION MATRIX>
+          0.985     0.073     0.159
+         -0.064     0.996    -0.059
+         -0.162     0.048     0.986
+     *RMSD:      1.590
+ not model line
+
+MODEL NO>   31
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+ 
+    INFORMATION> (0) RMSD CALCULATION
+       SIZE OF INPUT TARGET COORDINATES:      3    303
+       COM OF SPECIFIED ATOMS  (BEFORE):    39.040    61.688   121.086
+       COM OF SPECIFIED ATOMS  (AFTER) :     0.000     0.000    -0.000
+ # dbg  Array size (rA) [no of coords] :         303
+ 
+    INFORMATION> (1) SYMMETRIC MATRIX (S)
+         7.437   -31.612   -53.157     9.434
+       -31.612   710.589    39.254  -104.004
+       -53.157    39.254   706.259    31.900
+         9.434  -104.004    31.900   293.563
+ 
+    INFORMATION> (2) EIGENVALUES AND EIGENVECTORS
+          LOC MIN EIGENVALE :   1
+          MIN EIGENVALE     :      2.054
+          THE EIGENVECTOR   :      0.996     0.036     0.074    -0.027
+          <LIST OF EIGENVALUES>
+            1     2.054
+            2   760.086
+            3   690.137
+            4   265.571
+ 
+          <LIST OF EIGENVECTORS>
+          0.996    -0.076    -0.035     0.025
+          0.036     0.801    -0.548     0.236
+          0.074     0.576     0.809    -0.088
+         -0.027    -0.141     0.208     0.968
+ 
+          <ROTATION MATRIX>
+          0.987     0.060     0.146
+         -0.049     0.996    -0.076
+         -0.150     0.068     0.986
+     *RMSD:      1.433
+ not model line
+
+MODEL NO>   32
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+ 
+    INFORMATION> (0) RMSD CALCULATION
+       SIZE OF INPUT TARGET COORDINATES:      3    303
+       COM OF SPECIFIED ATOMS  (BEFORE):    39.063    61.767   120.043
+       COM OF SPECIFIED ATOMS  (AFTER) :     0.000    -0.000     0.000
+ # dbg  Array size (rA) [no of coords] :         303
+ 
+    INFORMATION> (1) SYMMETRIC MATRIX (S)
+         8.039   -29.545   -55.936     8.642
+       -29.545   704.104    37.820  -101.509
+       -55.936    37.820   703.994    32.800
+         8.642  -101.509    32.800   294.065
+ 
+    INFORMATION> (2) EIGENVALUES AND EIGENVECTORS
+          LOC MIN EIGENVALE :   1
+          MIN EIGENVALE     :      2.377
+          THE EIGENVECTOR   :      0.996     0.034     0.079    -0.027
+          <LIST OF EIGENVALUES>
+            1     2.377
+            2   687.923
+            3   753.199
+            4   266.703
+ 
+          <LIST OF EIGENVECTORS>
+          0.996     0.037    -0.078     0.025
+          0.034     0.575     0.783     0.234
+          0.079    -0.789     0.603    -0.090
+         -0.027    -0.213    -0.132     0.968
+ 
+          <ROTATION MATRIX>
+          0.986     0.058     0.155
+         -0.048     0.996    -0.072
+         -0.159     0.063     0.985
+     *RMSD:      1.542
+ not model line
+
+MODEL NO>   33
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+ 
+    INFORMATION> (0) RMSD CALCULATION
+       SIZE OF INPUT TARGET COORDINATES:      3    303
+       COM OF SPECIFIED ATOMS  (BEFORE):    38.617    61.875   120.185
+       COM OF SPECIFIED ATOMS  (AFTER) :     0.000     0.000    -0.000
+ # dbg  Array size (rA) [no of coords] :         303
+ 
+    INFORMATION> (1) SYMMETRIC MATRIX (S)
+        10.075   -36.922   -61.008    13.572
+       -36.922   708.405    37.679   -99.890
+       -61.008    37.679   712.746    29.093
+        13.572   -99.890    29.093   292.664
+ 
+    INFORMATION> (2) EIGENVALUES AND EIGENVECTORS
+          LOC MIN EIGENVALE :   1
+          MIN EIGENVALE     :      2.762
+          THE EIGENVECTOR   :      0.995     0.042     0.085    -0.041
+          <LIST OF EIGENVALUES>
+            1     2.762
+            2   693.075
+            3   760.824
+            4   267.230
+ 
+          <LIST OF EIGENVECTORS>
+          0.995     0.031    -0.091     0.037
+          0.042     0.609     0.758     0.229
+          0.085    -0.765     0.634    -0.078
+         -0.041    -0.207    -0.125     0.970
+ 
+          <ROTATION MATRIX>
+          0.982     0.088     0.166
+         -0.074     0.993    -0.090
+         -0.172     0.076     0.982
+     *RMSD:      1.662
+ not model line
+
+MODEL NO>   34
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+ 
+    INFORMATION> (0) RMSD CALCULATION
+       SIZE OF INPUT TARGET COORDINATES:      3    303
+       COM OF SPECIFIED ATOMS  (BEFORE):    38.863    61.788   120.123
+       COM OF SPECIFIED ATOMS  (AFTER) :    -0.000    -0.000     0.000
+ # dbg  Array size (rA) [no of coords] :         303
+ 
+    INFORMATION> (1) SYMMETRIC MATRIX (S)
+         9.599   -36.115   -59.245    13.580
+       -36.115   714.019    38.173  -102.461
+       -59.245    38.173   717.085    29.668
+        13.580  -102.461    29.668   295.998
+ 
+    INFORMATION> (2) EIGENVALUES AND EIGENVECTORS
+          LOC MIN EIGENVALE :   1
+          MIN EIGENVALE     :      2.701
+          THE EIGENVECTOR   :      0.995     0.040     0.082    -0.040
+          <LIST OF EIGENVALUES>
+            1     2.701
+            2   698.141
+            3   766.424
+            4   269.434
+ 
+          <LIST OF EIGENVECTORS>
+          0.995     0.031    -0.088     0.036
+          0.040     0.595     0.768     0.233
+          0.082    -0.776     0.621    -0.079
+         -0.040    -0.208    -0.131     0.969
+ 
+          <ROTATION MATRIX>
+          0.983     0.087     0.160
+         -0.074     0.994    -0.087
+         -0.166     0.074     0.983
+     *RMSD:      1.643
+ not model line
+
+MODEL NO>   35
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+ 
+    INFORMATION> (0) RMSD CALCULATION
+       SIZE OF INPUT TARGET COORDINATES:      3    303
+       COM OF SPECIFIED ATOMS  (BEFORE):    39.022    61.917   120.432
+       COM OF SPECIFIED ATOMS  (AFTER) :    -0.000    -0.000     0.000
+ # dbg  Array size (rA) [no of coords] :         303
+ 
+    INFORMATION> (1) SYMMETRIC MATRIX (S)
+        10.487   -38.102   -61.553    18.623
+       -38.102   712.885    37.982  -100.751
+       -61.553    37.982   714.047    28.862
+        18.623  -100.751    28.862   291.428
+ 
+    INFORMATION> (2) EIGENVALUES AND EIGENVECTORS
+          LOC MIN EIGENVALE :   1
+          MIN EIGENVALE     :      2.503
+          THE EIGENVECTOR   :      0.994     0.040     0.086    -0.059
+          <LIST OF EIGENVALUES>
+            1     2.503
+            2   695.190
+            3   764.777
+            4   266.378
+ 
+          <LIST OF EIGENVECTORS>
+          0.994     0.032    -0.092     0.054
+          0.040     0.592     0.772     0.230
+          0.086    -0.780     0.616    -0.074
+         -0.059    -0.202    -0.130     0.969
+ 
+          <ROTATION MATRIX>
+          0.978     0.123     0.167
+         -0.109     0.990    -0.090
+         -0.176     0.070     0.982
+     *RMSD:      1.582
+ not model line
+
+MODEL NO>   36
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+ 
+    INFORMATION> (0) RMSD CALCULATION
+       SIZE OF INPUT TARGET COORDINATES:      3    303
+       COM OF SPECIFIED ATOMS  (BEFORE):    38.463    61.901   120.833
+       COM OF SPECIFIED ATOMS  (AFTER) :     0.000    -0.000    -0.000
+ # dbg  Array size (rA) [no of coords] :         303
+ 
+    INFORMATION> (1) SYMMETRIC MATRIX (S)
+         9.752   -27.671   -57.771    16.802
+       -27.671   706.145    39.196  -102.105
+       -57.771    39.196   711.874    35.814
+        16.802  -102.105    35.814   294.246
+ 
+    INFORMATION> (2) EIGENVALUES AND EIGENVECTORS
+          LOC MIN EIGENVALE :   1
+          MIN EIGENVALE     :      3.242
+          THE EIGENVECTOR   :      0.995     0.026     0.083    -0.058
+          <LIST OF EIGENVALUES>
+            1     3.242
+            2   693.331
+            3   758.541
+            4   266.902
+ 
+          <LIST OF EIGENVECTORS>
+          0.995     0.034    -0.080     0.058
+          0.026     0.612     0.754     0.236
+          0.083    -0.758     0.641    -0.091
+         -0.058    -0.223    -0.119     0.966
+ 
+          <ROTATION MATRIX>
+          0.980     0.121     0.161
+         -0.112     0.992    -0.061
+         -0.167     0.042     0.985
+     *RMSD:      1.800
+ not model line
+
+MODEL NO>   37
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+ 
+    INFORMATION> (0) RMSD CALCULATION
+       SIZE OF INPUT TARGET COORDINATES:      3    303
+       COM OF SPECIFIED ATOMS  (BEFORE):    38.284    61.965   120.629
+       COM OF SPECIFIED ATOMS  (AFTER) :    -0.000     0.000    -0.000
+ # dbg  Array size (rA) [no of coords] :         303
+ 
+    INFORMATION> (1) SYMMETRIC MATRIX (S)
+         9.581   -34.386   -60.887    11.737
+       -34.386   705.547    36.799  -102.597
+       -60.887    36.799   705.102    31.683
+        11.737  -102.597    31.683   293.656
+ 
+    INFORMATION> (2) EIGENVALUES AND EIGENVECTORS
+          LOC MIN EIGENVALE :   1
+          MIN EIGENVALE     :      2.563
+          THE EIGENVECTOR   :      0.995     0.039     0.086    -0.036
+          <LIST OF EIGENVALUES>
+            1     2.563
+            2   689.926
+            3   755.119
+            4   266.278
+ 
+          <LIST OF EIGENVECTORS>
+          0.995     0.038    -0.087     0.033
+          0.039     0.571     0.785     0.236
+          0.086    -0.792     0.598    -0.085
+         -0.036    -0.210    -0.136     0.968
+ 
+          <ROTATION MATRIX>
+          0.983     0.078     0.168
+         -0.064     0.994    -0.084
+         -0.174     0.071     0.982
+     *RMSD:      1.601
+ not model line
+
+MODEL NO>   38
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+ 
+    INFORMATION> (0) RMSD CALCULATION
+       SIZE OF INPUT TARGET COORDINATES:      3    303
+       COM OF SPECIFIED ATOMS  (BEFORE):    38.078    62.356   120.994
+       COM OF SPECIFIED ATOMS  (AFTER) :     0.000     0.000    -0.000
+ # dbg  Array size (rA) [no of coords] :         303
+ 
+    INFORMATION> (1) SYMMETRIC MATRIX (S)
+         7.467   -32.833   -51.665     9.581
+       -32.833   708.042    42.472  -107.984
+       -51.665    42.472   711.054    31.947
+         9.581  -107.984    31.947   295.924
+ 
+    INFORMATION> (2) EIGENVALUES AND EIGENVECTORS
+          LOC MIN EIGENVALE :   1
+          MIN EIGENVALE     :      2.252
+          THE EIGENVECTOR   :      0.996     0.038     0.072    -0.026
+          <LIST OF EIGENVALUES>
+            1     2.252
+            2   690.439
+            3   764.142
+            4   265.654
+ 
+          <LIST OF EIGENVECTORS>
+          0.996     0.028    -0.077     0.023
+          0.038     0.581     0.775     0.246
+          0.072    -0.783     0.612    -0.090
+         -0.026    -0.222    -0.139     0.965
+ 
+          <ROTATION MATRIX>
+          0.988     0.058     0.141
+         -0.047     0.996    -0.080
+         -0.145     0.072     0.987
+     *RMSD:      1.501
+ not model line
+
+MODEL NO>   39
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+ 
+    INFORMATION> (0) RMSD CALCULATION
+       SIZE OF INPUT TARGET COORDINATES:      3    303
+       COM OF SPECIFIED ATOMS  (BEFORE):    38.404    61.847   120.727
+       COM OF SPECIFIED ATOMS  (AFTER) :    -0.000    -0.000    -0.000
+ # dbg  Array size (rA) [no of coords] :         303
+ 
+    INFORMATION> (1) SYMMETRIC MATRIX (S)
+         9.411   -39.772   -56.590    10.637
+       -39.772   701.527    38.003  -103.589
+       -56.590    38.003   703.421    28.779
+        10.637  -103.589    28.779   295.179
+ 
+    INFORMATION> (2) EIGENVALUES AND EIGENVECTORS
+          LOC MIN EIGENVALE :   1
+          MIN EIGENVALE     :      2.707
+          THE EIGENVECTOR   :      0.995     0.048     0.079    -0.027
+          <LIST OF EIGENVALUES>
+            1     2.707
+            2   685.378
+            3   754.168
+            4   267.284
+ 
+          <LIST OF EIGENVECTORS>
+          0.995     0.029    -0.090     0.021
+          0.048     0.577     0.779     0.240
+          0.079    -0.789     0.604    -0.082
+         -0.027    -0.211    -0.140     0.967
+ 
+          <ROTATION MATRIX>
+          0.986     0.061     0.154
+         -0.046     0.994    -0.101
+         -0.160     0.092     0.983
+     *RMSD:      1.645
+ not model line
+
+MODEL NO>   40
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+ 
+    INFORMATION> (0) RMSD CALCULATION
+       SIZE OF INPUT TARGET COORDINATES:      3    303
+       COM OF SPECIFIED ATOMS  (BEFORE):    38.761    61.857   120.599
+       COM OF SPECIFIED ATOMS  (AFTER) :    -0.000     0.000     0.000
+ # dbg  Array size (rA) [no of coords] :         303
+ 
+    INFORMATION> (1) SYMMETRIC MATRIX (S)
+        11.017   -47.094   -58.916    17.106
+       -47.094   706.281    37.813  -103.141
+       -58.916    37.813   709.221    22.851
+        17.106  -103.141    22.851   297.332
+ 
+    INFORMATION> (2) EIGENVALUES AND EIGENVECTORS
+          LOC MIN EIGENVALE :   1
+          MIN EIGENVALE     :      2.792
+          THE EIGENVECTOR   :      0.994     0.056     0.081    -0.045
+          <LIST OF EIGENVALUES>
+            1     2.792
+            2   688.633
+            3   761.491
+            4   270.935
+ 
+          <LIST OF EIGENVECTORS>
+          0.994     0.023    -0.100     0.035
+          0.056     0.584     0.774     0.239
+          0.081    -0.787     0.608    -0.066
+         -0.045    -0.199    -0.146     0.968
+ 
+          <ROTATION MATRIX>
+          0.983     0.098     0.157
+         -0.080     0.990    -0.118
+         -0.167     0.103     0.981
+     *RMSD:      1.671
+ not model line
+
+MODEL NO>   41
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+ 
+    INFORMATION> (0) RMSD CALCULATION
+       SIZE OF INPUT TARGET COORDINATES:      3    303
+       COM OF SPECIFIED ATOMS  (BEFORE):    38.301    62.395   120.365
+       COM OF SPECIFIED ATOMS  (AFTER) :     0.000    -0.000    -0.000
+ # dbg  Array size (rA) [no of coords] :         303
+ 
+    INFORMATION> (1) SYMMETRIC MATRIX (S)
+         9.507   -43.046   -58.942    13.201
+       -43.046   711.190    38.276  -105.709
+       -58.942    38.276   713.054    24.366
+        13.201  -105.709    24.366   293.040
+ 
+    INFORMATION> (2) EIGENVALUES AND EIGENVECTORS
+          LOC MIN EIGENVALE :   1
+          MIN EIGENVALE     :      2.065
+          THE EIGENVECTOR   :      0.995     0.051     0.081    -0.033
+          <LIST OF EIGENVALUES>
+            1     2.065
+            2   693.310
+            3   765.785
+            4   265.632
+ 
+          <LIST OF EIGENVECTORS>
+          0.995     0.028    -0.094     0.026
+          0.051     0.578     0.779     0.238
+          0.081    -0.791     0.603    -0.070
+         -0.033    -0.200    -0.146     0.968
+ 
+          <ROTATION MATRIX>
+          0.985     0.075     0.158
+         -0.058     0.993    -0.107
+         -0.164     0.096     0.982
+     *RMSD:      1.437
+ not model line
+
+MODEL NO>   42
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+ 
+    INFORMATION> (0) RMSD CALCULATION
+       SIZE OF INPUT TARGET COORDINATES:      3    303
+       COM OF SPECIFIED ATOMS  (BEFORE):    38.121    61.939   120.923
+       COM OF SPECIFIED ATOMS  (AFTER) :     0.000    -0.000    -0.000
+ # dbg  Array size (rA) [no of coords] :         303
+ 
+    INFORMATION> (1) SYMMETRIC MATRIX (S)
+         7.708   -40.952   -44.979    14.166
+       -40.952   704.026    39.504  -107.546
+       -44.979    39.504   709.771    23.396
+        14.166  -107.546    23.396   297.524
+ 
+    INFORMATION> (2) EIGENVALUES AND EIGENVECTORS
+          LOC MIN EIGENVALE :   1
+          MIN EIGENVALE     :      2.398
+          THE EIGENVECTOR   :      0.996     0.049     0.062    -0.035
+          <LIST OF EIGENVALUES>
+            1     2.398
+            2   687.638
+            3   760.354
+            4   268.638
+ 
+          <LIST OF EIGENVECTORS>
+          0.996     0.013    -0.081     0.026
+          0.049     0.579     0.775     0.247
+          0.062    -0.789     0.608    -0.071
+         -0.035    -0.206    -0.152     0.966
+ 
+          <ROTATION MATRIX>
+          0.990     0.075     0.120
+         -0.063     0.993    -0.103
+         -0.126     0.094     0.988
+     *RMSD:      1.549
+ not model line
+
+MODEL NO>   43
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+ 
+    INFORMATION> (0) RMSD CALCULATION
+       SIZE OF INPUT TARGET COORDINATES:      3    303
+       COM OF SPECIFIED ATOMS  (BEFORE):    38.622    62.076   121.342
+       COM OF SPECIFIED ATOMS  (AFTER) :     0.000     0.000    -0.000
+ # dbg  Array size (rA) [no of coords] :         303
+ 
+    INFORMATION> (1) SYMMETRIC MATRIX (S)
+         7.569   -40.830   -50.145    13.205
+       -40.830   711.340    39.519  -107.880
+       -50.145    39.519   712.314    25.214
+        13.205  -107.880    25.214   294.370
+ 
+    INFORMATION> (2) EIGENVALUES AND EIGENVECTORS
+          LOC MIN EIGENVALE :   1
+          MIN EIGENVALE     :      1.683
+          THE EIGENVECTOR   :      0.996     0.048     0.069    -0.033
+          <LIST OF EIGENVALUES>
+            1     1.683
+            2   692.300
+            3   765.903
+            4   265.706
+ 
+          <LIST OF EIGENVECTORS>
+          0.996     0.021    -0.084     0.025
+          0.048     0.562     0.789     0.243
+          0.069    -0.802     0.589    -0.073
+         -0.033    -0.202    -0.151     0.967
+ 
+          <ROTATION MATRIX>
+          0.988     0.072     0.134
+         -0.059     0.993    -0.101
+         -0.140     0.092     0.986
+     *RMSD:      1.297
+ not model line
+
+MODEL NO>   44
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+ 
+    INFORMATION> (0) RMSD CALCULATION
+       SIZE OF INPUT TARGET COORDINATES:      3    303
+       COM OF SPECIFIED ATOMS  (BEFORE):    39.093    61.613   120.898
+       COM OF SPECIFIED ATOMS  (AFTER) :    -0.000     0.000     0.000
+ # dbg  Array size (rA) [no of coords] :         303
+ 
+    INFORMATION> (1) SYMMETRIC MATRIX (S)
+         6.434   -43.097   -34.109    15.367
+       -43.097   700.510    39.317  -114.619
+       -34.109    39.317   706.934    17.824
+        15.367  -114.619    17.824   303.494
+ 
+    INFORMATION> (2) EIGENVALUES AND EIGENVECTORS
+          LOC MIN EIGENVALE :   1
+          MIN EIGENVALE     :      2.033
+          THE EIGENVECTOR   :      0.997     0.053     0.046    -0.033
+          <LIST OF EIGENVALUES>
+            1     2.033
+            2   684.787
+            3   759.387
+            4   271.165
+ 
+          <LIST OF EIGENVECTORS>
+          0.997     0.001    -0.075     0.021
+          0.053     0.550     0.791     0.265
+          0.046    -0.810     0.581    -0.062
+         -0.033    -0.203    -0.179     0.962
+ 
+          <ROTATION MATRIX>
+          0.994     0.071     0.088
+         -0.061     0.992    -0.110
+         -0.095     0.104     0.990
+     *RMSD:      1.426
+ not model line
+
+MODEL NO>   45
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+ 
+    INFORMATION> (0) RMSD CALCULATION
+       SIZE OF INPUT TARGET COORDINATES:      3    303
+       COM OF SPECIFIED ATOMS  (BEFORE):    39.514    61.573   121.022
+       COM OF SPECIFIED ATOMS  (AFTER) :    -0.000     0.000     0.000
+ # dbg  Array size (rA) [no of coords] :         303
+ 
+    INFORMATION> (1) SYMMETRIC MATRIX (S)
+         5.629   -31.025   -40.745    13.536
+       -31.025   706.510    41.338  -112.436
+       -40.745    41.338   705.473    29.861
+        13.536  -112.436    29.861   300.643
+ 
+    INFORMATION> (2) EIGENVALUES AND EIGENVECTORS
+          LOC MIN EIGENVALE :   1
+          MIN EIGENVALE     :      1.700
+          THE EIGENVECTOR   :      0.997     0.034     0.057    -0.038
+          <LIST OF EIGENVALUES>
+            1     1.700
+            2   760.678
+            3   687.555
+            4   268.322
+ 
+          <LIST OF EIGENVECTORS>
+          0.997    -0.067    -0.020     0.033
+          0.034     0.806    -0.532     0.257
+          0.057     0.565     0.818    -0.087
+         -0.038    -0.162     0.217     0.962
+ 
+          <ROTATION MATRIX>
+          0.991     0.080     0.112
+         -0.072     0.995    -0.073
+         -0.117     0.064     0.991
+     *RMSD:      1.304
+ not model line
+
+MODEL NO>   46
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+ 
+    INFORMATION> (0) RMSD CALCULATION
+       SIZE OF INPUT TARGET COORDINATES:      3    303
+       COM OF SPECIFIED ATOMS  (BEFORE):    39.555    61.386   120.843
+       COM OF SPECIFIED ATOMS  (AFTER) :    -0.000    -0.000     0.000
+ # dbg  Array size (rA) [no of coords] :         303
+ 
+    INFORMATION> (1) SYMMETRIC MATRIX (S)
+         6.689   -28.172   -42.833     7.937
+       -28.172   703.265    46.190  -108.427
+       -42.833    46.190   703.487    30.121
+         7.937  -108.427    30.121   304.411
+ 
+    INFORMATION> (2) EIGENVALUES AND EIGENVECTORS
+          LOC MIN EIGENVALE :   1
+          MIN EIGENVALE     :      3.030
+          THE EIGENVECTOR   :      0.997     0.033     0.060    -0.020
+          <LIST OF EIGENVALUES>
+            1     3.030
+            2   680.501
+            3   761.253
+            4   273.067
+ 
+          <LIST OF EIGENVECTORS>
+          0.997     0.024    -0.065     0.017
+          0.033     0.565     0.785     0.254
+          0.060    -0.794     0.598    -0.093
+         -0.020    -0.226    -0.148     0.963
+ 
+          <ROTATION MATRIX>
+          0.992     0.045     0.118
+         -0.037     0.997    -0.068
+         -0.120     0.063     0.991
+     *RMSD:      1.741
+ not model line
+
+MODEL NO>   47
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+ 
+    INFORMATION> (0) RMSD CALCULATION
+       SIZE OF INPUT TARGET COORDINATES:      3    303
+       COM OF SPECIFIED ATOMS  (BEFORE):    39.253    61.160   120.112
+       COM OF SPECIFIED ATOMS  (AFTER) :     0.000    -0.000     0.000
+ # dbg  Array size (rA) [no of coords] :         303
+ 
+    INFORMATION> (1) SYMMETRIC MATRIX (S)
+         6.577   -29.528   -47.189     3.075
+       -29.528   710.397    43.018  -110.056
+       -47.189    43.018   705.775    31.948
+         3.075  -110.056    31.948   300.031
+ 
+    INFORMATION> (2) EIGENVALUES AND EIGENVECTORS
+          LOC MIN EIGENVALE :   1
+          MIN EIGENVALE     :      2.401
+          THE EIGENVECTOR   :      0.997     0.037     0.065    -0.004
+          <LIST OF EIGENVALUES>
+            1     2.401
+            2   763.955
+            3   688.000
+            4   268.425
+ 
+          <LIST OF EIGENVECTORS>
+          0.997    -0.067    -0.032     0.000
+          0.037     0.807    -0.535     0.249
+          0.065     0.567     0.816    -0.095
+         -0.004    -0.153     0.219     0.964
+ 
+          <ROTATION MATRIX>
+          0.992     0.012     0.129
+         -0.002     0.997    -0.074
+         -0.129     0.074     0.989
+     *RMSD:      1.550
+ not model line
+
+MODEL NO>   48
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+ 
+    INFORMATION> (0) RMSD CALCULATION
+       SIZE OF INPUT TARGET COORDINATES:      3    303
+       COM OF SPECIFIED ATOMS  (BEFORE):    39.648    60.726   120.931
+       COM OF SPECIFIED ATOMS  (AFTER) :    -0.000    -0.000    -0.000
+ # dbg  Array size (rA) [no of coords] :         303
+ 
+    INFORMATION> (1) SYMMETRIC MATRIX (S)
+         5.713   -20.377   -43.397    -0.583
+       -20.377   707.352    45.145  -110.056
+       -43.397    45.145   701.877    36.913
+        -0.583  -110.056    36.913   303.987
+ 
+    INFORMATION> (2) EIGENVALUES AND EIGENVECTORS
+          LOC MIN EIGENVALE :   1
+          MIN EIGENVALE     :      2.575
+          THE EIGENVECTOR   :      0.998     0.026     0.060     0.004
+          <LIST OF EIGENVALUES>
+            1     2.575
+            2   760.673
+            3   684.903
+            4   270.777
+ 
+          <LIST OF EIGENVECTORS>
+          0.998    -0.054    -0.036    -0.004
+          0.026     0.808    -0.531     0.253
+          0.060     0.567     0.814    -0.109
+          0.004    -0.149     0.232     0.961
+ 
+          <ROTATION MATRIX>
+          0.993    -0.005     0.120
+          0.011     0.999    -0.051
+         -0.120     0.052     0.991
+     *RMSD:      1.605
+ not model line
+
+MODEL NO>   49
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+ 
+    INFORMATION> (0) RMSD CALCULATION
+       SIZE OF INPUT TARGET COORDINATES:      3    303
+       COM OF SPECIFIED ATOMS  (BEFORE):    39.594    60.775   120.926
+       COM OF SPECIFIED ATOMS  (AFTER) :    -0.000     0.000     0.000
+ # dbg  Array size (rA) [no of coords] :         303
+ 
+    INFORMATION> (1) SYMMETRIC MATRIX (S)
+         7.659   -40.395   -47.146     4.554
+       -40.395   706.170    38.582  -106.870
+       -47.146    38.582   701.560    25.953
+         4.554  -106.870    25.953   298.388
+ 
+    INFORMATION> (2) EIGENVALUES AND EIGENVECTORS
+          LOC MIN EIGENVALE :   1
+          MIN EIGENVALE     :      2.444
+          THE EIGENVECTOR   :      0.996     0.053     0.064    -0.002
+          <LIST OF EIGENVALUES>
+            1     2.444
+            2   757.360
+            3   684.641
+            4   269.333
+ 
+          <LIST OF EIGENVECTORS>
+          0.996    -0.080    -0.025    -0.006
+          0.053     0.812    -0.527     0.243
+          0.064     0.555     0.825    -0.080
+         -0.002    -0.159     0.201     0.967
+ 
+          <ROTATION MATRIX>
+          0.992     0.010     0.128
+          0.004     0.994    -0.107
+         -0.128     0.106     0.986
+     *RMSD:      1.563
+ not model line
+
+MODEL NO>   50
+    SPECIFIED ATOM TYPE  :    BB
+    NO OF COORDINATES    :  3
+    NO OF SPECIFIED ATOMS:     303
+    # Fitting residue range   1410   1510
+    # Fitting residue list
+ no of specified atoms:          303
+ 
+    INFORMATION> (0) RMSD CALCULATION
+       SIZE OF INPUT TARGET COORDINATES:      3    303
+       COM OF SPECIFIED ATOMS  (BEFORE):    39.305    60.799   120.611
+       COM OF SPECIFIED ATOMS  (AFTER) :    -0.000    -0.000     0.000
+ # dbg  Array size (rA) [no of coords] :         303
+ 
+    INFORMATION> (1) SYMMETRIC MATRIX (S)
+         5.000   -25.493   -36.354    -2.550
+       -25.493   704.305    43.026  -113.854
+       -36.354    43.026   698.199    32.079
+        -2.550  -113.854    32.079   305.433
+ 
+    INFORMATION> (2) EIGENVALUES AND EIGENVECTORS
+          LOC MIN EIGENVALE :   1
+          MIN EIGENVALE     :      2.250
+          THE EIGENVECTOR   :      0.998     0.036     0.049     0.017
+          <LIST OF EIGENVALUES>
+            1     2.250
+            2   757.471
+            3   682.041
+            4   271.175
+ 
+          <LIST OF EIGENVECTORS>
+          0.998    -0.053    -0.027    -0.021
+          0.036     0.823    -0.503     0.261
+          0.049     0.539     0.835    -0.100
+          0.017    -0.169     0.223     0.960
+ 
+          <ROTATION MATRIX>
+          0.995    -0.030     0.099
+          0.037     0.997    -0.070
+         -0.097     0.073     0.993
+     *RMSD:      1.500
+ not model line
+ Reading was finished.

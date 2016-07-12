@@ -5,6 +5,7 @@ CFLAGS = -Wall -O2 -fbounds-check
 PROGRAM = sinzi.exe
 OBJS    = types.o \
 	  linear_algebra.o\
+	  list_inp_class.o\
           inputs_class.o \
           pdb_class.o\
 	  calc.o     \
@@ -23,6 +24,9 @@ types.o: types.f03
 linear_algebra.o: linear_algebra.f03
 	$(FC) -c $<
 
+list_inp_class.o: list_inp_class.f03
+	$(FC) -c $<
+
 inputs_class.o: inputs_class.f03
 	$(FC) -c $<
 
@@ -34,6 +38,7 @@ calc.o: calc.f03
 
 align_class.o: align_class.f03
 	$(FC) -c $<
+
 
 analysis_class.o: analysis_class.f03
 	$(FC) -c $<

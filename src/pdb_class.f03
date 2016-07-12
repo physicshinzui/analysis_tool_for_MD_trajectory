@@ -37,7 +37,7 @@ contains
 
   subroutine initialize(self)
     class(pdb_class) :: self
-    print*, "no. of atoms: ", self%n_atoms
+    !print*, "no. of atoms: ", self%n_atoms
     allocate( self%AtomNum(self%n_atoms), &
               self%AtomName(self%n_atoms),&
               self%ResName(self%n_atoms), &
@@ -146,6 +146,13 @@ contains
               ) then 
           iatom_typ = iatom_typ + 1
         endif
+
+      case("AA")
+        if (self%ResNum(iatom) >= res_range(1) .and. &
+            self%ResNum(iatom) <= res_range(2)) then
+          iatom_typ = iatom_typ + 1
+        endif
+
       end select
     enddo
     ncount = iatom_typ
@@ -157,13 +164,13 @@ contains
   subroutine select_atoms(self, init_resi, last_resi)
     class(pdb_class)    :: self
     integer, intent(in) :: init_resi, last_resi  ! e.g.  1 15
-    print*,"resi init-last: ", init_resi, last_resi
-    if (init_resi >= last_resi) stop "resi(1) is more than resi(2)."
-    do iatom = 1, size(self%ResNum,1)
-      if (self%ResNum(iatom) >= init_resi .and. self%ResNum(iatom) <= last_resi ) then
-        print*, "res no: ", self%AtomName(iatom), self%ResNum(iatom), self%ResName(iatom)
-      endif
-    enddo
+  !  print*,"resi init-last: ", init_resi, last_resi
+  !  if (init_resi >= last_resi) stop "resi(1) is more than resi(2)."
+  !  do iatom = 1, size(self%ResNum,1)
+  !    if (self%ResNum(iatom) >= init_resi .and. self%ResNum(iatom) <= last_resi ) then
+  !      print*, "res no: ", self%AtomName(iatom), self%ResNum(iatom), self%ResName(iatom)
+  !    endif
+  !  enddo
   end subroutine
 
   function get_coords(self, atom_type, res_range) result(coords_atom_type)
@@ -217,7 +224,20 @@ contains
              (self%ResNum(iatom) >= res_range(1) .and. &
               self%ResNum(iatom) <= res_range(2))      &
            ) then 
-          !write(*,"('No', i10, 2a4)") iatom, self%ResName(iatom), self%AtomName(iatom)
+          coords_atom_type(1,iatom_typ) = self%x(iatom) 
+          coords_atom_type(2,iatom_typ) = self%y(iatom)
+          coords_atom_type(3,iatom_typ) = self%z(iatom)
+          !write(*,"(7x,a3,1x,i7,1x,a3,1x,3f10.3)") self%AtomName(iatom),&
+          !                                         self%ResNum(iatom)  ,&
+          !                                         self%ResName(iatom) ,&
+          !                                         coords_atom_type(:,iatom_typ)
+          iatom_typ = iatom_typ + 1
+        endif
+
+      case("AA")
+
+        if (self%ResNum(iatom) >= res_range(1) .and. &
+            self%ResNum(iatom) <= res_range(2)) then
           coords_atom_type(1,iatom_typ) = self%x(iatom) 
           coords_atom_type(2,iatom_typ) = self%y(iatom)
           coords_atom_type(3,iatom_typ) = self%z(iatom)
@@ -230,9 +250,23 @@ contains
       end select
     enddo
 
-    print*, "no of specified atoms: ", iatom_typ -1
+    print*, "    NO OF SPECIFIED ATOMS(in get_coords function)", iatom_typ -1
 
   end function
+
+
+  !***this does not belong to pdb class
+  function convert_xyz_r(x,y,z) result(coords)
+    integer i
+    real(8) :: x(:),y(:),z(:)
+    real(8), allocatable :: coords(:,:)
+    allocate(coords(3,size(x,1)))
+    do i = 1, size(x,1)
+      coords(1,i) = x(i)
+      coords(2,i) = y(i)
+      coords(3,i) = z(i)
+    enddo
+   end function
 
 
 

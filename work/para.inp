@@ -1,22 +1,4 @@
-26769
-adp_1.pdb
-adp_1ns_mod.pdb
-BB
-1410 1510
-
-
-
-
-
-
-
-#####
-.true.
-26769
-10
-1
-10.0 10.0 10.0
-adp_1.pdb
-adp_1ns_mod.pdb
-CA
-1410 4729
+natoms    : 26661
+ref       : adp_1.pdb
+trj_list  : trj_list.inp 
+rmsd      : BB, 1855-2188
